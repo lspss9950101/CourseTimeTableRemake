@@ -17,4 +17,4 @@ This application features home screen widget, custom appearance, and transformat
 ![config widget](/res/config_widget.png)
 #### Generating Image ####
 ![image dark](/res/image_dark.png)
-![image light](/res/image_ligt.png)
+![image light](/res/image_light.png)
