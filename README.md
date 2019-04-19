@@ -5,7 +5,7 @@ Motivated due to the lack of a proper, tidy, convinient way to show course time 
 This application features home screen widget, custom appearance, and transformation to png image.  
 ## Snapshot ##
 ### Main page ###
-![Main page dark](/res/setting_dark.png =250x)
+![Main page dark](/res/setting_dark.png =250x100)
 ![Main page light](/res/setting_light.png =250x)
 ### Operations ###
 #### List of Operations ####
