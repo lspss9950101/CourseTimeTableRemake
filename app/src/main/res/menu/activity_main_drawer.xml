@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/nav_section_operation"
+        android:id="@+id/nav_operation">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item android:title="@string/nav_add"
+                    android:id="@+id/nav_add"
+                    android:icon="@drawable/ic_create"/>
+                <item android:title="@string/nav_copy"
+                    android:id="@+id/nav_copy"
+                    android:icon="@drawable/ic_copy"/>
+                <item android:title="@string/nav_paste"
+                    android:id="@+id/nav_paste"
+                    android:icon="@drawable/ic_paste"/>
+                <item android:title="@string/nav_delete"
+                    android:id="@+id/nav_delete"
+                    android:icon="@drawable/ic_delete"/>
+                <item android:title="@string/nav_clear"
+                    android:id="@+id/nav_clear"
+                    android:icon="@drawable/ic_clear"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_section_setting"
+        android:id="@+id/nav_setting">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_night"
+                    android:title="@string/nav_night"
+                    android:icon="@drawable/ic_night"
+                    app:actionLayout="@layout/switch_item"/>
+                <item android:title="@string/nav_setting_context"
+                    android:id="@+id/nav_setting_context"
+                    android:icon="@drawable/ic_settings"/>
+                <item android:title="@string/nav_setting_widget"
+                    android:id="@+id/nav_setting_widget"
+                    android:icon="@drawable/ic_settings_widget"/>
+                <item android:title="@string/nav_output"
+                    android:id="@+id/nav_output"
+                    android:icon="@drawable/ic_img"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

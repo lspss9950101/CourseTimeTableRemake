@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">CourseTimeTableRemake</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="version" translatable="false">Build ver. 1.1.1</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="widget_loading">Please wait for loading...</string>
+
+    <string name="nav_section_operation">GENERAL</string>
+    <string name="nav_section_setting">SETTINGS</string>
+    <string name="nav_add">ADD/EDIT COURSE</string>
+    <string name="nav_copy">COPY COURSE</string>
+    <string name="nav_paste">PASTE COURSE</string>
+    <string name="nav_delete">DELETE COURSE</string>
+    <string name="nav_clear">CLEAR ALL</string>
+    <string name="nav_night">NIGHT MODE</string>
+    <string name="nav_setting_context">CONTEXT SETTINGS</string>
+    <string name="nav_setting_widget">WIDGET SETTINGS</string>
+    <string name="nav_output">EXPORT TO IMAGE</string>
+
+    <string name="msg_warning_select">Please choose sessions.</string>
+    <string name="msg_warning_select_one">Please choose only one session.</string>
+    <string name="msg_add_1">Added/Edited</string>
+    <string name="msg_add_2">course(s)</string>
+    <string name="msg_copy_1">Copied</string>
+    <string name="msg_copy_2">course(s)</string>
+    <string name="msg_delete_1">Deleted</string>
+    <string name="msg_delete_2">course(s)</string>
+    <string name="msg_clear">Cleared all course(s)</string>
+    <string name="msg_detail_1">Course Name : </string>
+    <string name="msg_detail_2">Course Room : </string>
+    <string name="msg_create_img">Created\n</string>
+    <string name="msg_permission">Permisions required</string>
+
+    <string name="setting_widget_title">Title</string>
+    <string name="setting_widget_context">Course</string>
+    <string name="setting_widget_title_size">Text Size : </string>
+    <string name="setting_widget_title_color">Text Color : </string>
+    <string name="setting_widget_title_background">Background Color : </string>
+    <string name="setting_context_background_opacity">Background Opacity : </string>
+    <string name="setting_context_title">Text Size</string>
+    <string name="setting_context_name">Course Name :</string>
+    <string name="setting_context_room">Course Room :</string>
+
+    <string name="add_name">Name :</string>
+    <string name="add_room">Room :</string>
+    <string name="add_color">Sign Color :</string>
+
+    <string name="setting_text_color">Light</string>
+    <string name="setting_text_color_dark">Dark</string>
+    
+    <string name="large">Large</string>
+    <string name="medium">Medium</string>
+    <string name="small">Small</string>
+    
+    <string name="table_sun">Sun</string>
+    <string name="table_mon">Mon</string>
+    <string name="table_tue">Tue</string>
+    <string name="table_wed">Wed</string>
+    <string name="table_thurs">Thu</string>
+    <string name="table_fri">Fri</string>
+    <string name="table_sat">Sat</string>
+
+    <string name="session_name_A">A</string>
+    <string name="session_name_B">B</string>
+    <string name="session_name_C">C</string>
+    <string name="session_name_D">D</string>
+    <string name="session_name_X">X</string>
+    <string name="session_name_E">E</string>
+    <string name="session_name_F">F</string>
+    <string name="session_name_G">G</string>
+    <string name="session_name_H">H</string>
+    <string name="session_name_Y">Y</string>
+    <string name="session_name_I">I</string>
+    <string name="session_name_J">J</string>
+    <string name="session_name_K">K</string>
+
+    <string name="session_sym">~</string>
+
+    <string name="session_start_A"> 8:00</string>
+    <string name="session_start_B"> 9:00</string>
+    <string name="session_start_C">10:10</string>
+    <string name="session_start_D">11:10</string>
+    <string name="session_start_X">12:20</string>
+    <string name="session_start_E">13:20</string>
+    <string name="session_start_F">14:20</string>
+    <string name="session_start_G">15:30</string>
+    <string name="session_start_H">16:30</string>
+    <string name="session_start_Y">17:30</string>
+    <string name="session_start_I">18:30</string>
+    <string name="session_start_J">19:30</string>
+    <string name="session_start_K">20:30</string>
+
+    <string name="session_end_A"> 8:50</string>
+    <string name="session_end_B"> 9:50</string>
+    <string name="session_end_C">11:00</string>
+    <string name="session_end_D">12:00</string>
+    <string name="session_end_X">13:10</string>
+    <string name="session_end_E">14:10</string>
+    <string name="session_end_F">15:10</string>
+    <string name="session_end_G">16:20</string>
+    <string name="session_end_H">17:20</string>
+    <string name="session_end_Y">18:20</string>
+    <string name="session_end_I">19:20</string>
+    <string name="session_end_J">20:20</string>
+    <string name="session_end_K">21:20</string>
+</resources>

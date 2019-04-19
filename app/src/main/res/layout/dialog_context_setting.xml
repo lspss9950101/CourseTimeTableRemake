@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvLabelTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/setting_context_title"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/clName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLabelTitle">
+
+        <TextView
+            android:id="@+id/tvLableNameSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/small"
+            app:layout_constraintStart_toStartOf="@+id/sbContextName"
+            app:layout_constraintTop_toBottomOf="@+id/sbContextName" />
+
+        <TextView
+            android:id="@+id/tvLableNameLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/large"
+            app:layout_constraintEnd_toEndOf="@+id/sbContextName"
+            app:layout_constraintTop_toBottomOf="@+id/sbContextName" />
+
+        <SeekBar
+            android:id="@+id/sbContextName"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="@color/colorSeekBar"
+            android:thumb="@drawable/thumb"
+            app:layout_constraintBottom_toBottomOf="@+id/tvLabelNameSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvLabelNameSize"
+            app:layout_constraintTop_toTopOf="@+id/tvLabelNameSize" />
+
+        <TextView
+            android:id="@+id/tvLabelNameSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/setting_context_name"
+            android:textColor="@color/colorGray"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clName">
+
+        <TextView
+            android:id="@+id/tvLableSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/small"
+            app:layout_constraintStart_toStartOf="@+id/sbContextRoom"
+            app:layout_constraintTop_toBottomOf="@+id/sbContextRoom" />
+
+        <TextView
+            android:id="@+id/tvLableLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/large"
+            app:layout_constraintEnd_toEndOf="@+id/sbContextRoom"
+            app:layout_constraintTop_toBottomOf="@+id/sbContextRoom" />
+
+        <SeekBar
+            android:id="@+id/sbContextRoom"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="@color/colorSeekBar"
+            android:thumb="@drawable/thumb"
+            app:layout_constraintBottom_toBottomOf="@+id/tvLabelRoomSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvLabelRoomSize"
+            app:layout_constraintTop_toTopOf="@+id/tvLabelRoomSize" />
+
+        <TextView
+            android:id="@+id/tvLabelRoomSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/setting_context_room"
+            android:textColor="@color/colorGray"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

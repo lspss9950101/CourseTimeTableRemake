@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">課程時間表Remake</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="confirm">確認</string>
+    <string name="cancel">取消</string>
+
+    <string name="widget_loading">請稍等小工具讀取...</string>
+
+    <string name="nav_section_operation">一般操作</string>
+    <string name="nav_section_setting">設定</string>
+    <string name="nav_add">建立/修改課程</string>
+    <string name="nav_copy">複製課程</string>
+    <string name="nav_paste">貼上課程</string>
+    <string name="nav_delete">刪除課程</string>
+    <string name="nav_clear">清除所有</string>
+    <string name="nav_night">夜間模式</string>
+    <string name="nav_setting_context">內文設定</string>
+    <string name="nav_setting_widget">小工具設定</string>
+    <string name="nav_output">輸出成圖檔</string>
+
+    <string name="msg_warning_select">請選擇時段</string>
+    <string name="msg_warning_select_one">請選擇單一課程</string>
+    <string name="msg_add_1">增加/修改</string>
+    <string name="msg_add_2">項課程</string>
+    <string name="msg_copy_1">複製</string>
+    <string name="msg_copy_2">項課程</string>
+    <string name="msg_delete_1">刪除</string>
+    <string name="msg_delete_2">項課程</string>
+    <string name="msg_clear">已清除所有課程</string>
+    <string name="msg_detail_1">課程名稱 : </string>
+    <string name="msg_detail_2">課程教室 : </string>
+    <string name="msg_create_img">已輸出\n</string>
+    <string name="msg_permission">缺乏所需權限</string>
+
+    <string name="setting_widget_title">標題</string>
+    <string name="setting_widget_context">課程</string>
+    <string name="setting_widget_title_size">文字大小 : </string>
+    <string name="setting_widget_title_color">文字顏色 : </string>
+    <string name="setting_widget_title_background">背景顏色 : </string>
+    <string name="setting_context_background_opacity">透明度 : </string>
+    <string name="setting_context_title">文字大小</string>
+    <string name="setting_context_name">課程名稱 :</string>
+    <string name="setting_context_room">課程教室 :</string>
+
+    <string name="add_name">課程名稱 :</string>
+    <string name="add_room">課程教室 :</string>
+    <string name="add_color">標示顏色 :</string>
+
+    <string name="setting_text_color">淺色</string>
+    <string name="setting_text_color_dark">深色</string>
+
+    <string name="large">大</string>
+    <string name="medium">中</string>
+    <string name="small">小</string>
+
+    <string name="table_sun">日</string>
+    <string name="table_mon">一</string>
+    <string name="table_tue">二</string>
+    <string name="table_wed">三</string>
+    <string name="table_thurs">四</string>
+    <string name="table_fri">五</string>
+    <string name="table_sat">六</string>
+
+    <string name="session_name_A">A</string>
+    <string name="session_name_B">B</string>
+    <string name="session_name_C">C</string>
+    <string name="session_name_D">D</string>
+    <string name="session_name_X">X</string>
+    <string name="session_name_E">E</string>
+    <string name="session_name_F">F</string>
+    <string name="session_name_G">G</string>
+    <string name="session_name_H">H</string>
+    <string name="session_name_Y">Y</string>
+    <string name="session_name_I">I</string>
+    <string name="session_name_J">J</string>
+    <string name="session_name_K">K</string>
+
+    <string name="session_sym">~</string>
+
+    <string name="session_start_A"> 8:00</string>
+    <string name="session_start_B"> 9:00</string>
+    <string name="session_start_C">10:10</string>
+    <string name="session_start_D">11:10</string>
+    <string name="session_start_X">12:20</string>
+    <string name="session_start_E">13:20</string>
+    <string name="session_start_F">14:20</string>
+    <string name="session_start_G">15:30</string>
+    <string name="session_start_H">16:30</string>
+    <string name="session_start_Y">17:30</string>
+    <string name="session_start_I">18:30</string>
+    <string name="session_start_J">19:30</string>
+    <string name="session_start_K">20:30</string>
+
+    <string name="session_end_A"> 8:50</string>
+    <string name="session_end_B"> 9:50</string>
+    <string name="session_end_C">11:00</string>
+    <string name="session_end_D">12:00</string>
+    <string name="session_end_X">13:10</string>
+    <string name="session_end_E">14:10</string>
+    <string name="session_end_F">15:10</string>
+    <string name="session_end_G">16:20</string>
+    <string name="session_end_H">17:20</string>
+    <string name="session_end_Y">18:20</string>
+    <string name="session_end_I">19:20</string>
+    <string name="session_end_J">20:20</string>
+    <string name="session_end_K">21:20</string>
+</resources>

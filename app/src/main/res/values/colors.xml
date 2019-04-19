@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#564996</color>
+    <color name="colorPrimaryDark">#352D52</color>
+    <color name="colorAccent">#4640B9</color>
+
+    <color name="colorTransparent">#0000</color>
+    <color name="colorGray">#292929</color>
+
+    <color name="shadowLight">#0000</color>
+    <color name="shadowDark">#5000</color>
+    <color name="shadowCenter">#1000</color>
+
+    <color name="colorSeekBar">#583AAF</color>
+    <color name="colorSeekBarBg">#A094C5</color>
+
+    <color name="colorToastWhite">#EFFF</color>
+    <color name="colorToastStrokeMsg">#008EE2</color>
+    <color name="colorToastTextMsg">#264A6D</color>
+
+    <color name="colorToastGray">#EE444444</color>
+    <color name="colorToastStrokeWarning">#AA1C1C</color>
+    <color name="colorToastTextWarning">#FFB0B0</color>
+
+</resources>

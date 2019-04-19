@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvLabelTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/setting_widget_title"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelTitle">
+
+            <TextView
+                android:id="@+id/tvLableTitleTextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/setting_widget_title_color"
+                android:textColor="@color/colorGray"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/rgTitleColor"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="@+id/tvLableTitleTextColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvLableTitleTextColor"
+                app:layout_constraintTop_toTopOf="@+id/tvLableTitleTextColor">
+
+                <RadioButton
+                    android:id="@+id/rbTitleColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorSeekBar"
+                    android:text="@string/setting_text_color"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/rbTitleColorDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorSeekBar"
+                    android:text="@string/setting_text_color_dark"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvLableTitleTextSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/setting_widget_title_size"
+                android:textColor="@color/colorGray"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvLableTitleBgColor" />
+
+            <SeekBar
+                android:id="@+id/sbTitleSize"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:max="100"
+                android:progress="0"
+                android:progressBackgroundTint="@color/colorSeekBarBg"
+                android:progressTint="@color/colorSeekBar"
+                android:thumb="@drawable/thumb"
+                app:layout_constraintBottom_toBottomOf="@+id/tvLableTitleTextSize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvLableTitleTextSize"
+                app:layout_constraintTop_toTopOf="@+id/tvLableTitleTextSize" />
+
+            <TextView
+                android:id="@+id/tvLableTitleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/small"
+                app:layout_constraintStart_toStartOf="@+id/sbTitleSize"
+                app:layout_constraintTop_toBottomOf="@+id/sbTitleSize" />
+
+            <TextView
+                android:id="@+id/tvLableTitleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/large"
+                app:layout_constraintEnd_toEndOf="@+id/sbTitleSize"
+                app:layout_constraintTop_toBottomOf="@+id/sbTitleSize" />
+
+            <TextView
+                android:id="@+id/tvLableTitleBgColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/setting_widget_title_background"
+                android:textColor="@color/colorGray"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvLableTitleTextColor" />
+
+            <ImageButton
+                android:id="@+id/ibtnTitleColor"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@android:color/holo_red_light"
+                android:cropToPadding="false"
+                android:elevation="5dp"
+                app:layout_constraintBottom_toBottomOf="@+id/tvLableTitleBgColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvLableTitleBgColor"
+                app:layout_constraintTop_toTopOf="@+id/tvLableTitleBgColor" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <TextView
+            android:id="@+id/tvLabelContext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/setting_widget_context"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvLabelContext">
+
+            <TextView
+                android:id="@+id/tvLableContextSmall2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/small"
+                app:layout_constraintStart_toStartOf="@+id/sbContextSizeRoom"
+                app:layout_constraintTop_toBottomOf="@+id/sbContextSizeRoom" />
+
+            <SeekBar
+                android:id="@+id/sbContextSizeRoom"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:max="100"
+                android:progress="0"
+                android:progressBackgroundTint="@color/colorSeekBarBg"
+                android:progressTint="@color/colorSeekBar"
+                android:thumb="@drawable/thumb"
+                app:layout_constraintBottom_toBottomOf="@+id/tvLableContextTextSize2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvLableContextTextSize2"
+                app:layout_constraintTop_toTopOf="@+id/tvLableContextTextSize2" />
+
+            <TextView
+                android:id="@+id/tvLableContextLarge2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/large"
+                app:layout_constraintEnd_toEndOf="@+id/sbContextSizeRoom"
+                app:layout_constraintTop_toBottomOf="@+id/sbContextSizeRoom" />
+
+            <TextView
+                android:id="@+id/tvLableContextTextSize2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/setting_context_room"
+                android:textColor="@color/colorGray"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/tvLabelSubtitle"
+                app:layout_constraintTop_toBottomOf="@+id/tvLableContextTextSize" />
+
+            <TextView
+                android:id="@+id/tvLabelSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/setting_context_title"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvLableContextBgOpacity" />
+
+            <TextView
+                android:id="@+id/tvLableContextTextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/setting_widget_title_color"
+                android:textColor="@color/colorGray"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/rgContextColor"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="@+id/tvLableContextTextColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvLableContextTextColor"
+                app:layout_constraintTop_toTopOf="@+id/tvLableContextTextColor">
+
+                <RadioButton
+                    android:id="@+id/rbContextColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorSeekBar"
+                    android:text="@string/setting_text_color"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/rbContextColorDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorSeekBar"
+                    android:text="@string/setting_text_color_dark"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvLableContextTextSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/setting_context_name"
+                android:textColor="@color/colorGray"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/tvLabelSubtitle"
+                app:layout_constraintTop_toBottomOf="@+id/tvLabelSubtitle" />
+
+            <TextView
+                android:id="@+id/tvLableContextBgOpacity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/setting_context_background_opacity"
+                android:textColor="@color/colorGray"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvLableContextBgColor" />
+
+            <SeekBar
+                android:id="@+id/sbContextOpacity"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:max="255"
+                android:progress="50"
+                android:progressBackgroundTint="@color/colorSeekBarBg"
+                android:progressTint="@color/colorSeekBar"
+                android:thumb="@drawable/thumb"
+                app:layout_constraintBottom_toBottomOf="@+id/tvLableContextBgOpacity"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvLableContextBgOpacity"
+                app:layout_constraintTop_toTopOf="@+id/tvLableContextBgOpacity" />
+
+            <SeekBar
+                android:id="@+id/sbContextSize"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:max="100"
+                android:progress="0"
+                android:progressBackgroundTint="@color/colorSeekBarBg"
+                android:progressTint="@color/colorSeekBar"
+                android:thumb="@drawable/thumb"
+                app:layout_constraintBottom_toBottomOf="@+id/tvLableContextTextSize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvLableContextTextSize"
+                app:layout_constraintTop_toTopOf="@+id/tvLableContextTextSize" />
+
+            <TextView
+                android:id="@+id/tvLableContextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/small"
+                app:layout_constraintStart_toStartOf="@+id/sbContextSize"
+                app:layout_constraintTop_toBottomOf="@+id/sbContextSize" />
+
+            <TextView
+                android:id="@+id/tvLableContextLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/large"
+                app:layout_constraintEnd_toEndOf="@+id/sbContextSize"
+                app:layout_constraintTop_toBottomOf="@+id/sbContextSize" />
+
+            <TextView
+                android:id="@+id/tvLableContextBgColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/setting_widget_title_background"
+                android:textColor="@color/colorGray"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvLableContextTextColor" />
+
+            <ImageButton
+                android:id="@+id/ibtnContextColor"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@android:color/holo_red_light"
+                android:cropToPadding="false"
+                android:elevation="5dp"
+                app:layout_constraintBottom_toBottomOf="@+id/tvLableContextBgColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvLableContextBgColor"
+                app:layout_constraintTop_toTopOf="@+id/tvLableContextBgColor" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
