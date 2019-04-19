@@ -5,16 +5,16 @@ Motivated due to the lack of a proper, tidy, convinient way to show course time 
 This application features home screen widget, custom appearance, and transformation to png image.  
 ## Snapshot ##
 ### Main page ###
-![Main page dark](/res/setting_dark.png =250x100)
-![Main page light](/res/setting_light.png =250x)
+![Main page dark](/res/setting_dark.png)
+![Main page light](/res/setting_light.png)
 ### Operations ###
 #### List of Operations ####
-![Navigation](/res/navigation.png =250x)
+![Navigation](/res/navigation.png)
 #### Adding Courses ####
-![Adding](/res/adding_dialog.png =250x)
+![Adding](/res/adding_dialog.png)
 #### Configuration ####
-![config context](/res/config_context.png =250x)
-![config widget](/res/config_widget.png =250x)
+![config context](/res/config_context.png)
+![config widget](/res/config_widget.png)
 #### Generating Image ####
-![image dark](/res/image_dark.png =250x)
-![image light](/res/image_ligt.png =250x)
+![image dark](/res/image_dark.png)
+![image light](/res/image_ligt.png)
